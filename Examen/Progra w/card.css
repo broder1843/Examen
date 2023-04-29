@@ -1,0 +1,61 @@
+header{
+    display:flex;
+}
+body{
+    border-color: rgb(0, 0, 0);
+    display: block;
+}
+.container{
+    max-width: 320px;
+    margin:auto;
+}
+.titulos{
+    
+    margin:auto;
+    background-color: grey;
+    color: white;
+    max-block-size: 300px;
+    width: 320px;
+    
+    ;
+
+
+}
+
+.textoJ{
+    font-size: 15px;
+    margin:center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-right: 60px;
+    
+    border-color: gray;
+    
+}
+.containerCenter{
+    display:flex;
+    flex-wrap: nowrap;
+    margin:auto;
+    max-width: 470px;
+    border-color: grey;
+}
+section{
+    width:300px;
+    padding-left: 120px ;
+}
+
+.containerDown{
+    display:flex;
+    flex-wrap: nowrap;
+    margin:auto;
+    max-width: 300px;
+    white-space: nowrap;
+}
+.links{
+    margin:center;
+    background-color: rgb(187, 171, 171);
+    color: rgb(0, 0, 0);
+    max-block-size: 200px;
+    width: 320px;
+
+}

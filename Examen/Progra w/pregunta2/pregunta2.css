@@ -1,0 +1,96 @@
+header {
+    display: flex;
+}
+.menuNav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;  
+}
+
+nav {
+    background-color: #ddd;
+}
+.menuNav li{
+    list-style-type: none;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 8px;
+    white-space: nowrap;
+}
+.container {
+    max-width: 1000px;
+    margin:auto;
+}
+main {
+
+    width:1000px;
+    height:500px;
+}
+h7 {
+    font-size: 10px;
+    text-transform: uppercase; 
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+    padding-left: 10px;
+  }
+  
+  h2 {
+      font-size: 30px;
+      color: black;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      width: 00px;
+      margin-left:10px;
+      padding-top: 150px;
+      font-weight: bold;
+      white-space: nowrap;
+  }
+  .botonjuega {
+    background-color: yellow;
+    color: black;
+    border-color: white;
+    border-width: 1px;
+    padding: 5px;
+    margin-left:8px;
+    padding-top: 200px;
+    display: block;
+}
+h3 {
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 00px;
+    margin-left:10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.logo1{
+
+    float:left;
+    background-image:url("01.jpg");
+    background-repeat: no-repeat;
+    width:500px;
+    height:500px;
+}
+.logo2{
+    float:right;
+    background-image:url("02.jpg");
+    background-repeat: no-repeat;
+    width:500px;
+    height:500px;
+    margin-left: 500px;
+
+}
+aside{
+
+    width:1000px;
+    height:500px;
+}
